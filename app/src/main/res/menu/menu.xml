@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <item
+        android:id="@+id/mlist"
+        android:icon="@drawable/ic_sort_dp"
+        android:title="Lista"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mBusca"
+        android:icon="@drawable/ic_search_dp"
+        android:title="Procurar"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mMoeda"
+        android:icon="@drawable/settings"
+        android:title="Moeda"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/mTempo"
+        android:title="Tempo"
+        app:showAsAction="never"/>
+
+</menu>
